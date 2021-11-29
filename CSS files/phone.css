@@ -1,0 +1,86 @@
+/* Navigation section */
+#navbar{
+    /* flex-direction: column; */
+    height: 71px;
+}
+#navbar::before{
+    height: 80px;
+}
+.logo{
+    margin: 2px 2px;
+}
+#navbar ul li{
+    /* display: none; */
+    font-size: 1rem;
+}
+
+/* home section */
+#home{
+  height: 401px;
+}
+
+#home::before{
+    height: 474px;
+  }
+
+#home p{
+    font-size: 1.5rem;
+}
+
+#services{
+  flex-direction: column;
+  height: 1846px;
+}
+ .box{
+height: 580px;
+}
+.box img{
+    height: 230px;
+    width: 394px;
+}
+.box p{ 
+    font-size: 1.2rem;
+}
+#client-section{
+    height: 152px;
+}
+#client-section::before{
+    height: 182px;
+}
+.client-item{
+    padding: 0px 18px;
+    margin: 5px;
+}
+.client-item img{
+    width: 80px;
+}
+#contact {
+    position: relative;
+    padding: 30px 0px 0px 0px;
+    height: 475px;
+}
+#contact::before{
+height: 480px;
+}
+#contact-box form{
+    width: 50%;
+}
+#contact-box label{
+    font-size:1.7rem;
+}
+#contact-box input{
+    font-size: 1.1rem;
+}
+footer{
+    font-size: 1rem;
+    height: 20px;
+}
+.h-primary{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 1.5rem;
+}
+.h-secondary{
+    font-size: 1.7rem;
+}
